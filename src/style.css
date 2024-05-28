@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+.logo1{
+    color: #4B208C;
+}
+.header,.home,.about{
+    background-color: #EBE6F4;
+    
+}
+.foot{
+    background-color: #190734;
+}
+.nav-i{
+    background-color: #4B208C;
+    color: white;
+}
+.hom-btn{
+    background-color: #4B208C;
+}
+.bor-img,.abo-img, .abo-img2{
+    border: 6px solid #6f42c1;
+}
+.serv-p{
+    font-size: 14px;
+}
+.ser-box{
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
+    border: 2px solid #4B208C;
+}
+.width-90{
+    width: 96%;
+    margin: 0 auto;
+}
+.in{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
+}
+.fig-cap{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
+    padding: 25px 25px 15px;
+}
+@media(min-width:768px){
+    .bor-img{
+        width: 320px;
+        height: 320px;
+    }
+    .abo-img{
+        width: 250px;
+        height: 250px;
+    }
+    .abo-img2{
+        width: 180px;
+        height: 180px;
+    }
+    .frame{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media(min-width:992px){
+    .bor-img{
+        width: 430px;
+        height: 430px;
+    }
+    .hei{
+        height: 260px;
+    }
+    .frame{
+        width: 480px;
+    }
+}
